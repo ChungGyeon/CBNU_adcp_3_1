@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include <stdlib.h>
-int main(){
+#include "mainpage.h"
+
+int mainpage_p(){
     system("clear"); //[issue]리눅스만 클리어됨, 윈도우 운영체제 대응하는거 필요
     printf("------------------------------------\n");
     for(int i=0; i<10; i++){
@@ -24,12 +26,5 @@ int main(){
         if(cnt>=10){printf("긴급탈출");break;}
     }
 
-    return 0;
+   return 0;
 }
-
-/* 나중에 모듈로 빼둘때
-int initiate_front(){
-
-    return 0;
-}
-*/
