@@ -26,5 +26,5 @@ int mainpage_p(){
         if(cnt>=10){printf("긴급탈출");break;}
     }
 
-   return 0;
+   return test;
 }
